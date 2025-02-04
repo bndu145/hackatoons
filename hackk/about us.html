@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About Us - Solid Waste Management And Recycling Automation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/custom.css">
+    <style>
+        @media (min-width: 1400px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl,
+            .container-xxl {
+                max-width: 1320px;
+            }
+        }
+
+        @media (min-width: 1200px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm,
+            .container-xl {
+                max-width: 1140px;
+            }
+        }
+
+        @media (min-width: 992px) {
+
+            .container,
+            .container-lg,
+            .container-md,
+            .container-sm {
+                max-width: 960px;
+            }
+        }
+
+        @media (min-width: 768px) {
+
+            .container,
+            .container-md,
+            .container-sm {
+                max-width: 720px;
+            }
+        }
+
+        @media (min-width: 576px) {
+
+            .container,
+            .container-sm {
+                max-width: 1345px;
+            }
+        }
+
+        .container,
+        .container-fluid,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl,
+        .container-xxl {
+            --bs-gutter-x: 1.5rem;
+            --bs-gutter-y: 0;
+            width: 100%;
+            padding-right: calc(var(--bs-gutter-x)* .5);
+            padding-left: calc(var(--bs-gutter-x)* .5);
+            margin-right: auto;
+            margin-left: auto;
+        }
+
+        *,
+        ::after,
+        ::before {
+            box-sizing: border-box;
+        }
+
+        user agent stylesheet div {
+            display: block;
+            unicode-bidi: isolate;
+        }
+
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+
+        nav {
+            background-color: rgb(197, 246, 255);
+            color: aliceblue;
+            height: 10vh;
+            display: flex;
+        }
+
+        .logo {
+            margin-left: 15px;
+            padding-top: 20px;
+            color: rgb(255, 255, 255);
+            font-family: Georgia, 'Times New Roman', Times, serif;
+            font-size: xx-large;
+            font-weight: bolder;
+            font-style: italic;
+        }
+
+        body {
+            margin: 0;
+            font-family: Arial, sans-serif;
+        }
+        .navbar {
+            background-color: #1a472a;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+        .header {
+            background-color: #004d40;
+            color: white;
+            padding: 50px 20px;
+            text-align: left;
+        }
+         
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            width: 100%;
+        }
+
+.about {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+ 
+  .about-section {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+ 
+  .about-section:hover {
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+    transform: translateY(-5px);
+  }
+ 
+  .about-section h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+ 
+  .about-section p {
+    margin-bottom: 20px;
+  }
+  .about-us {
+    padding: 50px 100px;
+    background-color: #f9f9f9;
+    }
+   
+    .about-us h1 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    color: #333;
+    text-decoration: solid underline #333;
+    }
+   
+    .about-us h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    color: #666;
+    }
+   
+    .about-us p {
+    font-size: 18px;
+    margin-bottom: 20px;
+    color: #777;
+    }
+   
+    .about-us ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    }
+   
+    .about-us li {
+    margin-bottom: 10px;
+    }
+   
+    .about-us strong {
+    font-weight: bold;
+    color: #333;
+    }
+   
+    .about-us a {
+    text-decoration: none;
+    color: #337ab7;
+    }
+   
+    .about-us a:hover {
+    color: #23527c;
+    }
+   
+    /* Responsive Design */
+   
+    @media only screen and (max-width: 768px) {
+    .about-us {
+    padding: 20px 40px;
+    }
+    }
+   
+    @media only screen and (max-width: 480px) {
+    .about-us {
+    padding: 10px 20px;
+    }
+    .about-us h1 {
+    font-size: 24px;
+    }
+    .about-us h2 {
+    font-size: 18px;
+    }
+    .about-us p {
+    font-size: 14px;
+    }
+    }
+   
+   
+ 
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <strong>WMRA</strong> - Water | People | Nature
+        </div>
+        <div class="menu">
+            <a href="C:\Users\kotte\Downloads\homepage.html">Home</a>
+            <a href="">Our Work</a>
+            <a href="C:\Users\kotte\Downloads\res.html">Resources</a>
+            <a href="C:\Users\kotte\Downloads\Thematic areas.html">Thematic Areas</a>
+            <a href="C:\Users\kotte\Downloads\about us.html">About Us</a>
+            
+        </div>
+    </div>
+    <div class="header">
+        <h1>Solid Waste Sorting And Recycling Automation</h1>
+        <p>Urbanization, economic prosperity, and population growth have led to a sharp increase in consumption and waste generation.</p>
+    </div>
+    <div class="about-us">
+        <h1>About Us</h1>
+       
+        <h2>Who We Are</h2>
+        <p>We are a team dedicated to revolutionizing waste management through smart technologies, automation, and sustainable practices. Our mission is to create a cleaner and more efficient waste disposal system by integrating cutting-edge solutions like IoT, AI, robotics, and data analytics.</p>
+        <hr>
+        <h2>Our Vision</h2>
+        <p>To build a sustainable future where waste is efficiently sorted, recycled, and repurposed using intelligent automation, minimizing environmental impact and maximizing resource recovery</p>
+        <hr>
+        <h2>Our Mission</h2>
+        <ul>
+        <li>To implement AI-driven automation for smarter waste sorting.</li>
+        <li>To develop IoT-enabled waste bins for real-time monitoring and efficient collection.</li>
+        <li>To promote data-driven waste management for optimized recycling processes.</li>
+        <li>To reduce landfill waste and encourage eco-friendly waste disposal.</li>
+        <li>To educate communities on proper recycling practices and sustainability.</li>
+        </ul>
+        <hr>
+        <h2>What We Do</h2>
+        <p>We leverage technology to enhance solid waste management through:</p>
+        <ul>
+        <li>✅ Smart Waste Bins – Sensors for waste detection and level monitoring.</li>
+        <li>✅ AI & Robotics – Automating the sorting and recycling process.</li>
+        <li>✅ Cloud-Based Systems – Real-time data analytics for waste management.</li>
+        <li>✅ Sustainable Practices – Encouraging responsible waste disposal.</li>
+        </ul>
+        <hr>
+        <h2>Why Choose Us?</h2>
+        <ul>
+        <li>🌱 Eco-Friendly Solutions – Reducing carbon footprints through sustainable waste handling.</li>
+        <li>🚀 Innovative Technology – Cutting-edge automation for smarter recycling.</li>
+        <li>📊 Data-Driven Efficiency – Using AI & analytics to optimize waste management.</li>
+        <li>🤝 Community Engagement – Educating and empowering people for a greener future.</li>
+        <p>By transforming the way waste is managed, we aim to create a cleaner, greener, and smarter world!</p>
+        </ul>
+       </div>
+       <footer>
+        <p>&copy; 2025 Smart Waste Sorting & Recycling Automation</p>
+        <h4>For more infomation: <br>
+            Contact Number- +91 0233933xx <br>
+            Email id- wsra@gmail.com <br>
+        </h4>
+    </footer>
+</body>
+
+</html>

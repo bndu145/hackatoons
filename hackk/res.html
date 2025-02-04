@@ -1,0 +1,324 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Waste Sorting and Recycling</title>
+    <style>
+        .navbar {
+            background-color: #1a472a;
+            color: white;
+            padding: 10px 20px;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .navbar a {
+            color: white;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .navbar a:hover {
+            text-decoration: underline;
+        }
+
+        .header {
+            background-color: #004d40;
+            color: white;
+            padding: 50px 20px;
+            text-align: left;
+        }
+
+        .header h1 {
+            margin: 0;
+            font-size: 48px;
+            text-transform: uppercase;
+        }
+
+        .header p {
+            margin-top: 20px;
+            font-size: 18px;
+        }
+
+        footer {
+            background: #4CAF50;
+            color: white;
+            text-align: center;
+            padding: 1rem 0;
+            position: relative;
+            width: 100%;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f4;
+            margin: 0;
+            padding: 0;
+        }
+
+        .container {
+            width: 80%;
+            margin: auto;
+            padding: 20px;
+            background: white;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h2 {
+            text-align: center;
+        }
+
+        .sensor {
+            padding: 20px;
+            margin: 20px 0;
+            background: #e3e3e3;
+            align-items: center 5px solid #007bff;
+        }
+
+        .sensor h2 {
+            color: #007bff;
+            margin: 0;
+            flex: 1;
+            /* Allow the title to take available space */
+        }
+
+        .video-container {
+            display: flex;
+            text-align: center;
+            margin-top: 20px;
+        }
+
+        img {
+            width: 100px;
+            /* Set a fixed width for the GIFs */
+            height: auto;
+            margin-left: 10px;
+            /* Space between text and GIF */
+        }
+    </style>
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <strong>WMRA</strong> - Water | People | Nature
+        </div>
+        <div class="menu">
+            <a href="C:\Users\kotte\Downloads\homepage.html">Home</a>
+            <a href="">Our Work</a>
+            <a href="C:\Users\kotte\Downloads\res.html">Resources</a>
+            <a href="C:\Users\kotte\Downloads\Thematic areas.html">Thematic Areas</a>
+            <a href="C:\Users\kotte\Downloads\about us.html">About Us</a>
+            
+        </div>
+    </div>
+    <div class="header">
+        <h1>Solid Waste Sorting And Recycling Automation</h1>
+        <p>Urbanization, economic prosperity, and population growth have led to a sharp increase in consumption and
+            waste generation.</p>
+    </div>
+    <div class="container">
+        <h1>Smart Waste Sorting and Recycling Automation</h1>
+
+        <div class="sensor">
+            <h2>1. Ultrasonic Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Measures distance using sound waves.</li>
+                    <li>Helps in non-contact object detection.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>The sensor emits a burst of ultrasonic waves.</li>
+                    <li>These waves travel through the air and reflect off objects.</li>
+                    <li>The sensor receives the reflected waves and calculates the distance based on the time taken for
+                        the waves to return.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Detects waste fill levels.</li>
+                    <li>Identifies the presence of waste for sorting.</li>
+                </ul>
+            </div>
+            <img src="https://media3.giphy.com/media/v1.Y2lkPTc5MGI3NjExNGpudzNxYzdhenVxNjVlZDBwbmdudDQzZjluOGwxcHNmcmp2bnd0cSZlcD12MV9pbnRlcm5hbF9naWZfYnlfaWQmY3Q9Zw/qrxjnv7nXCb0pQRcAj/giphy.gif"
+                alt="Ultrasonic Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>2. Capacitive Touch Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Detects metallic objects using capacitance.</li>
+                    <li>Sensitive to conductive materials.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>The sensor consists of a conductive surface and an oscillator circuit.</li>
+                    <li>When a conductive object (e.g., metal) comes close to the sensor, it changes the capacitance of
+                        the circuit.</li>
+                    <li>The sensor detects this change and triggers an output signal.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Identifies and sorts metallic waste.</li>
+                    <li>Used in automated recycling plants.</li>
+                </ul>
+            </div>
+            <img src="C:\Users\kotte\Downloads\BINDU_SREE_2._Capacitive_Touch_Sensors_4f3af3eb-6972-40da-918a-e366c51ff570.png" alt="Capacitive Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>3. Optical Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Uses light to detect color and material properties.</li>
+                    <li>Helps in object identification and classification.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>The sensor emits light (e.g., infrared, visible) towards an object.</li>
+                    <li>The light reflects off the object and is received by a photodetector.</li>
+                    <li>The sensor analyzes the reflected light to determine the object's properties.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Sorts recyclables based on color and material.</li>
+                    <li>Used in automatic waste separation systems.</li>
+                </ul>
+            </div>
+            <img src="C:\Users\kotte\Downloads\BINDU_SREE_Optical_Sensors_821851d0-f214-42eb-a0e3-ac119f59bbe0.png" alt="Optical Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>4. Inductive Proximity Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Detects metal objects via electromagnetic fields.</li>
+                    <li>Works without physical contact.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>The sensor generates an electromagnetic field using an oscillator circuit.</li>
+                    <li>When a metallic object enters the field, it induces eddy currents in the object.</li>
+                    <li>These eddy currents change the amplitude of the oscillator, which the sensor detects and
+                        triggers an output signal.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Sorts metallic waste and ensures correct placement.</li>
+                    <li>Used in industrial automated waste sorting systems.</li>
+                </ul>
+            </div>
+            <img src="C:\Users\kotte\Downloads\BINDU_SREE_Inductive_Proximity_Sensors_af1395c1-c794-49c8-999f-9de3d834ebbe.png" alt="Inductive Proximity Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>5. Infrared (IR) Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Detects objects and measures distances using infrared light.</li>
+                    <li>Can be used for presence detection.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>The sensor emits infrared light towards an object.</li>
+                    <li>The light reflects off the object and is received by an IR photodetector.</li>
+                    <li>The sensor calculates the distance based on the intensity and time taken for the light to
+                        return.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Used for detecting the presence of waste items.</li>
+                    <li>Helps in sorting based on distance measurements.</li>
+                </ul>
+            </div>
+            <img src="C:\Users\kotte\Downloads\IR-.webp" alt="Infrared Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>6. Load Cells</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Measures weight of waste items.</li>
+                    <li>Helps in identifying the type of waste based on weight.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>Load cells convert force (weight) into an electrical signal.</li>
+                    <li>The signal is proportional to the weight applied to the load cell.</li>
+                    <li>This data is processed to determine the weight of the waste item.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Used to sort waste based on weight categories.</li>
+                    <li>Helps in monitoring the fill level of bins.</li>
+                </ul>
+            </div>
+            <img src="https://assets.new.siemens.com/siemens/assets/api/uuid:1bd4121487844fae4ae24f5d60b445c73006ae57/width:2000/quality:high/load-cells-ebe.jpg" alt="Load Cell GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>7. Gas Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Detects gases emitted from waste materials.</li>
+                    <li>Helps in identifying organic waste and potential hazards.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>Gas sensors detect specific gases by measuring changes in electrical resistance.</li>
+                    <li>When a gas interacts with the sensor, it alters the resistance, which is measured and processed.
+                    </li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Identifies organic waste for composting.</li>
+                    <li>Monitors for hazardous gases in waste management facilities.</li>
+                </ul>
+            </div>
+            <img src="https://robu.in/wp-content/uploads/2021/05/MQ-137-Ammonia-Gas-NH3-Sensor-Module-1.jpg" alt="Gas Sensor GIF">
+        </div>
+
+        <div class="sensor">
+            <h2>8. RFID Sensors</h2>
+            <div>
+                <p><strong>Function:</strong></p>
+                <ul>
+                    <li>Identifies and tracks waste items using radio frequency identification.</li>
+                    <li>Helps in managing waste inventory.</li>
+                </ul>
+                <p><strong>Working Principle:</strong></p>
+                <ul>
+                    <li>RFID tags are attached to waste items.</li>
+                    <li>The RFID reader emits radio waves that activate the tags, allowing them to transmit their
+                        information back to the reader.</li>
+                </ul>
+                <p><strong>Applications:</strong></p>
+                <ul>
+                    <li>Tracks waste items for recycling processes.</li>
+                    <li>Improves inventory management in waste facilities.</li>
+                </ul>
+            </div>
+            <img src="https://m.media-amazon.com/images/I/6131KRlni3L.jpg" alt="RFID Sensor GIF">
+        </div>
+    </div>
+
+    <footer>
+        <p>&copy; 2025 Smart Waste Sorting & Recycling Automation</p>
+        <h4>For more infomation: <br>
+            Contact Number- +91 0233933xx <br>
+            Email id- wsra@gmail.com <br>
+        </h4>
+    </footer>
+</body>
+
+</html>
